@@ -19,4 +19,4 @@ while True:
                 GPIO.output(25,light)
                 light = not light
                 break
-    time.sleep(0.3)
+    time.sleep(0.1)
