@@ -15,8 +15,7 @@ while True:
         while 1:
             i = GPIO.input(24)
             if not i:
-                print('down')
+                print('up')
                 GPIO.output(25,light)
                 light = not light
                 break
-    time.sleep(0.2)
